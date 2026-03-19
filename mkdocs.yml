@@ -2,6 +2,9 @@ site_name: Doce GSR
 site_autor: Jurandy Soares
 site_url: https://jurandysoares.github.io/doce-gsr/
 
+repo_url: https://github.com/jurandysoares/doce-gsr
+edit_uri: edit/main/docs/
+
 theme:
   name: material
   language: pt
