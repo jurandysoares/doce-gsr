@@ -9,6 +9,7 @@ Documentação para disciplina Gerência e Segurança de Redes
 1. `uv add mkdocs mkdocs-material`
 1. `uv run mkdocs`
 1. `uv run mkdocs new .`
+   1. Edite o arquivo `mkdocs.yml` seguindo o exemplo [mkdocs.yml](https://github.com/jurandysoares/doce-gsr/blob/main/mkdocs.yml)
 1. `uv run mkdocs serve`
 1. `uv run mkdocs gh-deploy`
 1. `git add .`
