@@ -2,114 +2,114 @@
 icon: lucide/rocket
 ---
 
-# Get started
+# Começando
 
-For full documentation visit [zensical.org](https://zensical.org/docs/).
+Para a documentação completa visite [zensical.org](https://zensical.org/docs/).
 
-## Commands
+## Comandos
 
-* [`zensical new`][new] - Create a new project
-* [`zensical serve`][serve] - Start local web server
-* [`zensical build`][build] - Build your site
+* [`zensical new`][new] - Criar um novo projeto
+* [`zensical serve`][serve] - Iniciar servidor web local
+* [`zensical build`][build] - Compilar seu site
 
   [new]: https://zensical.org/docs/usage/new/
   [serve]: https://zensical.org/docs/usage/preview/
   [build]: https://zensical.org/docs/usage/build/
 
-## Examples
+## Exemplos
 
-### Admonitions
+### Admonições
 
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/)
+> Vá para a [documentação](https://zensical.org/docs/authoring/admonitions/)
 
 !!! note
 
-    This is a **note** admonition. Use it to provide helpful information.
+    Esta é uma admonição de **nota**. Use-a para fornecer informações úteis.
 
 !!! warning
 
-    This is a **warning** admonition. Be careful!
+    Esta é uma admonição de **aviso**. Tenha cuidado!
 
-### Details
+### Detalhes
 
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/#collapsible-blocks)
+> Vá para a [documentação](https://zensical.org/docs/authoring/admonitions/#collapsible-blocks)
 
-??? info "Click to expand for more info"
+??? info "Clique para expandir para mais informações"
+    
+    Este conteúdo está oculto até que você clique para expandi-lo.
+    Ótimo para FAQs ou longas explicações.
 
-    This content is hidden until you click to expand it.
-    Great for FAQs or long explanations.
+## Blocos de Código
 
-## Code Blocks
+> Vá para a [documentação](https://zensical.org/docs/authoring/code-blocks/)
 
-> Go to [documentation](https://zensical.org/docs/authoring/code-blocks/)
-
-``` python hl_lines="2" title="Code blocks"
+``` python hl_lines="2" title="Blocos de código"
 def greet(name):
-    print(f"Hello, {name}!") # (1)!
+    print(f"Olá, {name}!") # (1)!
 
 greet("Python")
 ```
 
-1.  > Go to [documentation](https://zensical.org/docs/authoring/code-blocks/#code-annotations)
+1.  > Vá para a [documentação](https://zensical.org/docs/authoring/code-blocks/#code-annotations)
 
-    Code annotations allow to attach notes to lines of code.
+    Anotações de código permitem anexar notas a linhas de código.
 
-Code can also be highlighted inline: `#!python print("Hello, Python!")`.
+Código também pode ser destacado em linha: `#!python print("Olá, Python!")`.
 
-## Content tabs
+## Abas de Conteúdo
 
-> Go to [documentation](https://zensical.org/docs/authoring/content-tabs/)
+> Vá para a [documentação](https://zensical.org/docs/authoring/content-tabs/)
 
 === "Python"
 
     ``` python
-    print("Hello from Python!")
+    print("Olá do Python!")
     ```
 
 === "Rust"
 
     ``` rs
-    println!("Hello from Rust!");
+    println!("Olá do Rust!");
     ```
 
-## Diagrams
+## Diagramas
 
-> Go to [documentation](https://zensical.org/docs/authoring/diagrams/)
+> Vá para a [documentação](https://zensical.org/docs/authoring/diagrams/)
 
 ``` mermaid
 graph LR
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
+  A[Início] --> B{Erro?};
+  B -->|Sim| C[Hmm...];
+  C --> D[Depurar];
   D --> B;
-  B ---->|No| E[Yay!];
+  B ---->|Não| E[Eba!];
 ```
 
-## Footnotes
+## Notas de Rodapé
 
-> Go to [documentation](https://zensical.org/docs/authoring/footnotes/)
+> Vá para a [documentação](https://zensical.org/docs/authoring/footnotes/)
 
-Here's a sentence with a footnote.[^1]
+Aqui está uma frase com uma nota de rodapé.[^1]
 
-Hover it, to see a tooltip.
+Passe o mouse para ver uma dica.
 
-[^1]: This is the footnote.
+[^1]: Esta é a nota de rodapé.
 
 
-## Formatting
+## Formatação
 
-> Go to [documentation](https://zensical.org/docs/authoring/formatting/)
+> Vá para a [documentação](https://zensical.org/docs/authoring/formatting/)
 
-- ==This was marked (highlight)==
-- ^^This was inserted (underline)^^
-- ~~This was deleted (strikethrough)~~
+- ==Isto foi marcado (destaque)==
+- ^^Isto foi inserido (sublinhado)^^
+- ~~Isto foi excluído (tachado)~~
 - H~2~O
 - A^T^A
 - ++ctrl+alt+del++
 
-## Icons, Emojis
+## Ícones, Emojis
 
-> Go to [documentation](https://zensical.org/docs/authoring/icons-emojis/)
+> Vá para a [documentação](https://zensical.org/docs/authoring/icons-emojis/)
 
 * :sparkles: `:sparkles:`
 * :rocket: `:rocket:`
@@ -117,22 +117,22 @@ Hover it, to see a tooltip.
 * :memo: `:memo:`
 * :eyes: `:eyes:`
 
-## Maths
+## Matemática
 
-> Go to [documentation](https://zensical.org/docs/authoring/math/)
+> Vá para a [documentação](https://zensical.org/docs/authoring/math/)
 
 $$
 \cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
 $$
 
-!!! warning "Needs configuration"
-    Note that MathJax is included via a `script` tag on this page and is not
-    configured in the generated default configuration to avoid including it
-    in a pages that do not need it. See the documentation for details on how
-    to configure it on all your pages if they are more Maths-heavy than these
-    simple starter pages.
+!!! warning "Necessita configuração"
+    Note que o MathJax é incluído via uma tag `script` nesta página e não está
+    configurado na configuração padrão gerada para evitar incluí-lo em
+    páginas que não precisam dele. Veja a documentação para detalhes sobre como
+    configurá-lo em todas as suas páginas se elas forem mais pesadas em Matemática do que estas
+    páginas iniciais simples.
 
-<script id="MathJax-script" src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script id="MathJax-script" async src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script>
   window.MathJax = {
     tex: {
@@ -146,28 +146,21 @@ $$
       processHtmlClass: "arithmatex"
     }
   };
-
-  document$.subscribe(() => {
-    MathJax.startup.output.clearCache()
-    MathJax.typesetClear()
-    MathJax.texReset()
-    MathJax.typesetPromise()
-  })
 </script>
 
-## Task Lists
+## Listas de Tarefas
 
-> Go to [documentation](https://zensical.org/docs/authoring/lists/#using-task-lists)
+> Vá para a [documentação](https://zensical.org/docs/authoring/lists/#using-task-lists)
 
-* [x] Install Zensical
-* [x] Configure `zensical.toml`
-* [x] Write amazing documentation
-* [ ] Deploy anywhere
+* [x] Instalar Zensical
+* [x] Configurar `zensical.toml`
+* [x] Escrever documentação incrível
+* [ ] Implantar em qualquer lugar
 
-## Tooltips
+## Dicas de Ferramenta (Tooltips)
 
-> Go to [documentation](https://zensical.org/docs/authoring/tooltips/)
+> Vá para a [documentação](https://zensical.org/docs/authoring/tooltips/)
 
-[Hover me][example]
+[Passe o mouse em mim][example]
 
-  [example]: https://example.com "I'm a tooltip!"
+  [example]: https://example.com "Eu sou uma dica!"
