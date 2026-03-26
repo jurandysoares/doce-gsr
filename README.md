@@ -12,15 +12,15 @@ Abra um novo terminal e volte a executar os comandos. Caso tenha aberto o VS Cod
 1. `uv init`
 1. `uv add zensical`
 1. `uv run zensical`
-1. `uv run mkdocs new`
+1. `uv run zensical new`
    1. Edite o arquivo `zensical.toml` seguindo o exemplo [zensical.toml](https://github.com/jurandysoares/doce-gsr/blob/main/zensical.toml)
    
 1. `uv run zensical serve`
    1. Abra a URL <http://localhost:8000>, caso esteja editando o projeto em sua máquina local. No Codespace do GitHub, clique no botão que aparece "Abrir no Navegador".
    1. Pressione, simultaneamente, as teclas `Ctrl`+`C` para interromper o servidor HTTP local
 
-Edite as páginas de sua documentação, que ficarão salvas em arquivos com extensão ".md" dentro do diretório <./docs>.
-
+1. Edite as páginas de sua documentação, que ficarão salvas em arquivos com extensão ".md" dentro do diretório <./docs>.
+1. Habilite *GitHub Actions*, depois selecione *Static HTML* na página do [GitHub Pages](https://github.com/jurandysoares/doce-gsr/settings/pages).
 1. `git add .`
 1. `git commit -m "MENSAGEM"`
 1. `git push`
