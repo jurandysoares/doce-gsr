@@ -1,6 +1,6 @@
 # Aula de 25/03/2026
 
-Sobre a entrega do trabalho manuscrito digitalizado em um Ambiente Virtual de Aprendizagem.
+Sobre a entrega do trabalho manuscrito digitalizado em um Ambiente Virtual de Aprendizagem (AVA).
 
 ### Prompt
   
